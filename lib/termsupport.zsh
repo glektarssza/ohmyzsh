@@ -38,7 +38,8 @@ function title {
   esac
 }
 
-ZSH_THEME_TERM_TAB_TITLE_IDLE="%15<..<%~%<<" #15 char left truncated PWD
+# 15 character (by default) left truncated process working directory
+ZSH_THEME_TERM_TAB_TITLE_IDLE="%${TERM_TAB_TITLE_WIDTH:-15}<..<%~%<<"
 ZSH_THEME_TERM_TITLE_IDLE="%n@%m:%~"
 # Avoid duplication of directory in terminals with independent dir display
 if [[ "$TERM_PROGRAM" == Apple_Terminal ]]; then

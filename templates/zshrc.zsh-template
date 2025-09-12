@@ -40,6 +40,10 @@ ZSH_THEME="robbyrussell"
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
+# Uncomment the following line to allow a wider tab title on terminals that
+# support it (e.g. Windows Terminal under WSL).
+# TERM_TAB_TITLE_WIDTH="30"
+
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
